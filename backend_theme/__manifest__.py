@@ -16,7 +16,7 @@
 	'images':[
         'images/screen.png'
 	],
-    "author": "MASTERCORE || SINAPSYS Global",
+    "author": "MASTERCORE SAS|| SINAPSYS GLOBAL SA",
     "license": "LGPL-3",
     "installable": True,
     "depends": [
@@ -26,7 +26,7 @@
     ],
     "data": [
         'views/assets.xml',
-		'views/res_company_view.xml',
+		# 'views/res_company_view.xml',
     ],
 }
 
