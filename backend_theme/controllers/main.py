@@ -6,7 +6,7 @@ import base64
 from odoo.http import Controller, request, route
 from werkzeug.utils import redirect
 
-DEFAULT_IMAGE = '/backend_theme_v13/static/src/img/background.jpeg'
+DEFAULT_IMAGE = '/backend_theme/static/src/img/background.jpeg'
 
 class DasboardBackground(Controller):
 
