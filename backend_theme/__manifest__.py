@@ -13,9 +13,9 @@
 		Simplified Enterprise Backend Theme for Odoo 13.0 CE
         Thanks to Openwork Material Backend Theme V13
     """,
-	'images':[
-        'images/screen.png'
-	],
+	#'images':[
+    #    'images/screen.png'
+	#],
     "author": "MASTERCORE SAS || SINAPSYS GLOBAL SA",
     "license": "LGPL-3",
     "installable": True,
@@ -26,7 +26,6 @@
     ],
     "data": [
         'views/assets.xml',
-		# 'views/res_company_view.xml',
     ],
 }
 

@@ -368,16 +368,9 @@ textarea, select, .o_form_view.o_form_editable .o_form_field_many2manytags,
 
 // App Dashboard
 
-/*
 .o_menu_apps .dropdown-menu.show {
-	background: transparent url('/dashboard') no-repeat scroll center center / cover;
-
-}
-*/
-
-o_menu_apps .dropdown-menu.show {
     background: url(/backend_theme/static/src/img/bg-overlay.svg),
-        linear-gradient(to right bottom, #77717e, #c9a8a9);
+        linear-gradient(to right bottom, #886990, #cab0b1);
     background-size: cover;
 }
 
