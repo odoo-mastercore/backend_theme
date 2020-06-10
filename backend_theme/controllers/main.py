@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
-# Copyright 2016, 2019 Openworx
+# Copyright 2020 MASTERCORE
+# Thanks Openwork Material Backend Theme V13
 # License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl.html).
 
 import base64
