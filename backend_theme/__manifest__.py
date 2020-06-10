@@ -16,7 +16,7 @@
 	'images':[
         'images/screen.png'
 	],
-    "author": "MASTERCORE SAS|| SINAPSYS GLOBAL SA",
+    "author": "MASTERCORE SAS || SINAPSYS GLOBAL SA",
     "license": "LGPL-3",
     "installable": True,
     "depends": [
