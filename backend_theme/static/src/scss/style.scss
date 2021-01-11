@@ -1,7 +1,7 @@
 /* Copyright 2016, 2019 Openworx.
  * License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl). */
 
-.o-menu-search-result {
+ .o-menu-search-result {
     color: #2b272a !important;
 }
 
@@ -17,18 +17,6 @@ $gray-dark:              #666;
 $gray:                   #777;
 $gray-light:             #AEA79F;
 $gray-lighter: lighten($gray-base, 93.5%);
-
-
-// Change colors here
-
-// New Odoo colors
-//$brand-primary: #875a7b;
-//$brand-secondary: #00A09D;
-//------------------------
-$brand-primary: rgb(135, 90, 123);
-$brand-secondary: rgb(0, 160, 157);
-//------------------------
-
 
 $brand-primary-dark: darken($brand-primary, 10%);
 $brand-secondary-dark: darken($brand-secondary, 10%);
@@ -63,9 +51,7 @@ body {
 
 }
 
-.app-sidebar {
-    display: none;
-}
+
 
 // Fix color Add file button
 .o_control_panel .o_cp_sidebar .o_hidden_input_file .o_form_binary_form span {
@@ -375,6 +361,11 @@ textarea, select, .o_form_view.o_form_editable .o_form_field_many2manytags,
     background: url(/backend_theme/static/src/img/bg-overlay.svg),
         linear-gradient(to right bottom, #886990, #cab0b1);
     background-size: cover;
+
+.o_main_navbar > ul.o_menu_systray {
+    float: right;
+    position: relative;
+    z-index: 200;
 }
 
 
@@ -386,6 +377,8 @@ textarea, select, .o_form_view.o_form_editable .o_form_field_many2manytags,
     width: 46px;
     font-size: 18px;
     text-align: center;
+    position: relative;
+    z-index: 200;
 }
 
 .o-app-name {
