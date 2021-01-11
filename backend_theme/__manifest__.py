@@ -23,9 +23,6 @@
     ],
     "data": [
         'views/assets.xml',
-		'views/res_company_view.xml',
-		'views/users.xml',
-        	'views/sidebar.xml',
     ],
 }
 
