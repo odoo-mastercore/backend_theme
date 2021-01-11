@@ -280,7 +280,9 @@ textarea, select, .o_form_view.o_form_editable .o_form_field_many2manytags,
 
 .o_required_modifier {
     &.o_input, .o_input {
-        background-color: lighten($brand-primary, 35%) ! important;
+        //background-color: lighten($brand-primary, 35%) ! important;
+        background-color: #e9eff1 ! important;
+        border-bottom: 2px solid #666666;
     }
 }
 
