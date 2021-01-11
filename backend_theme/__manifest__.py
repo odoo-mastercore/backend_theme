@@ -8,7 +8,7 @@
     "summary": "Simplified emulated EE Backend Theme",
     "version": "14.0.1.0",
     "category": "Theme/Backend",
-    "website": "https://www.openworx.nl",
+    "website": "https://mastercore.net",
 	"description": """
 		Simplified emulated EE Backend Theme for Odoo 14.0 CE
         Special Thanks to Mario Gielissen Openwork Material Backend Theme V14
